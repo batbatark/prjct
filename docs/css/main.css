@@ -1,3 +1,40 @@
+/*.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+*/
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -5,51 +42,58 @@
   padding: 0;
 }
 
-.col-1 {
-  width: 8.33%;
+body {
+  background: #272727;
+  color: #fff;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
 }
 
-.col-2 {
-  width: 16.66%;
+h1,
+h2,
+h3 {
+  font-weight: 400;
 }
 
-.col-3 {
-  width: 25%;
+a {
+  color: #fff;
+  text-decoration: none;
 }
 
-.col-4 {
-  width: 33.33%;
-}
-
-.col-5 {
-  width: 41.66%;
-}
-
-.col-6 {
-  width: 50%;
-}
-
-.col-7 {
-  width: 58.33%;
-}
-
-.col-8 {
-  width: 66.66%;
-}
-
-.col-9 {
-  width: 75%;
-}
-
-.col-10 {
-  width: 83.33%;
-}
-
-.col-11 {
-  width: 91.66%;
-}
-
-.col-12 {
+header {
+  position: fixed;
+  z-index: 2;
   width: 100%;
+  padding: 1rem;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+main .social-icons {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+main .social-icons a {
+  padding: 0.4rem;
+}
+
+main .social-icons a:hover {
+  color: #ff652f;
+}
+
+footer {
+  font-size: 1rem;
+  position: fixed;
+  bottom: 0.4rem;
+  right: 1rem;
+  text-align: right;
+  padding: 1rem;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
