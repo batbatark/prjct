@@ -1,8 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 .col-1 {
   width: 8.33%;
 }
@@ -38,4 +33,12 @@
 }
 .col-12 {
   width: 100%;
+}
+$primary-color: #272727;
+$secondary-color: #ff652f;
+$textColor: #fff;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
