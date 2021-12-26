@@ -1,7 +1,5 @@
-@import "./config";
-@import "./home";
-@import "./menu";
-@import "./about";
+@import "./config", "./home", "./menu", "./about", "./projects";
+
 body {
   background: $primary-color;
   color: set-text-color($primary-color);
@@ -24,7 +22,7 @@ a {
 }
 header {
   position: fixed;
-  z-index: -2;
+  z-index: 2;
   width: 100%;
   padding: 1rem;
 }
