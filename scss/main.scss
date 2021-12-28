@@ -1,3 +1,12 @@
+@import "./config", "./home", "./menu", "./about", "./projects";
+body {
+  background: $primary-color;
+  color: set-text-color($primary-color);
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
+}
+
 .home {
   height: 100%;
   padding-top: 40vh;
